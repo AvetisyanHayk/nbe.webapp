@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/webapp">
+    <Resource  name="jdbc/testappdb"
+               type="javax.sql.DataSource" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost/testappdb?useSSL=false"
+               username="student"
+               password="student"
+               closeMethod="close"/>
+</Context>
