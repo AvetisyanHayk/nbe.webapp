@@ -1,5 +1,6 @@
 package be.hayk.testapp.domain;
 
+import java.io.Serializable;
 import java.util.Locale;
 import java.util.Objects;
 
@@ -7,8 +8,10 @@ import java.util.Objects;
  *
  * @author Hayk
  */
-public class TestEntity {
+public class TestEntity implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+    
     private final long id;
     private final String name;
     private final String description;
